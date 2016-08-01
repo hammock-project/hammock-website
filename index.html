@@ -4,30 +4,31 @@ title: index
 permalink: /
 ---
 <div class="navbar-wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                        <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
-                        <li><a class="page-scroll" href="#about_hammock"><span data-i18n="nav.about_me">{{ site.landing.about }}</span></a></li>
-                        <li><a class="page-scroll" href="#features"><span data-i18n="nav.career">{{ site.landing.career }}</span></a></li>
-                        <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
-                        <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
-                        <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
-                        <li><a class="page-scroll" href="#link"><span data-i18n="nav.link">{{ site.landing.link }}</span></a></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" id="i18_title"><img src="/static/img/logo/hammock_silver.png"
+                                                                             height="100"/></a>
             </div>
-        </nav>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                    <li><a class="page-scroll" href="#page-top"><span
+                            data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
+                    <li><a class="page-scroll" href="#about_hammock"><span data-i18n="nav.about">{{ site.landing.about }}</span></a>
+                    </li>
+                    <li><a class="page-scroll" href="#features"><span
+                            data-i18n="nav.features">{{ site.landing.career }}</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </div>
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
@@ -48,20 +49,10 @@ permalink: /
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="about_me.about_me">About Me</span></h1>
-                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+                <h1><span data-i18n="nav.about">About</span></h1>
             </div>
         </div>
         <div class="row">
-            <!-- python -->
-            <div class="col-xs-2 wow fadeInLeft">
-                <div class="team-member">
-                    <div class="vote-icon">
-                        <i class="icon-python"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- linux -->
             <div class="col-xs-2 wow fadeInLeft">
                 <div class="team-member">
                     <div class="vote-icon">
@@ -69,42 +60,50 @@ permalink: /
                     </div>
                 </div>
             </div>
+            <div class="col-xs-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-java-bold"></i>
+                    </div>
+                </div>
+            </div>
             <!-- avatar -->
             <div class="col-xs-4">
                 <div class="team-member wow zoomIn">
-                    <img src="{{ site.author.head_img }}" height="120" width="120" class="img-responsive img-circle" alt="">
+                    <img src="{{ site.author.head_img }}" height="120" width="120" class="img-responsive img-circle"
+                         alt="">
                     <h4><span class="navy">{{ site.author.name }}</span></h4>
                     <ul class="list-inline social-icon">
-                        <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
+                        <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i
+                                class="fa fa-github"></i></a>
                         </li>
                         <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a>
                         </li>
-                        <li><a href="{{ site.url}}/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
+                        <li><a href="/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- html -->
             <div class="col-xs-2 wow fadeInRight">
                 <div class="team-member">
                     <div class="vote-icon">
-                        <i class="icon-angular"></i>
+                        <i class="glyphicon-cloud"></i>
                     </div>
                 </div>
             </div>
-            <!-- docker -->
             <div class="col-xs-2 wow fadeInRight">
                 <div class="team-member">
                     <div class="vote-icon">
-                        <i class="icon-docker"></i>
+                        <i class="icon-microscope"></i>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><span data-i18n="about_me.des">
-                    Hammock, the way to simplify your CDI based Microservices
+                <p><span class="bigger">
+                    Hammock, the way to simplify your CDI based Microservices.<br/>
+                    Hammock is designed to be modular, bringing in just enough features to power your server.
                 </span></p>
             </div>
         </div>
@@ -120,15 +119,21 @@ permalink: /
             </div>
         </div>
         <div class="row features-block">
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>REST via JAX-RS</p>
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+                    <span>REST via JAX-RS</span>
+                </div>
+                <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+                    <span>The CDI ecosystem</span>
+                </div>
+                <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+                    <span>Tooling flexibility</span>
+                </div>
             </div>
-          </div>
         </div>
     </div>
 </section>
-
+<!--
 <section id="blog" class="navy-section testimonials" style="margin-top: 0">
 
     <div class="container">
@@ -142,42 +147,17 @@ permalink: /
     </div>
 
 </section>
+-->
 
 <section id="link" class="contact features">
     <div class="container" id="i18_link">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="link.link">Link</span></h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
-                <div class="team-member wow zoomIn">
-                    <h4><span class="navy">{{ site.jingyu.last_name }}</span> {{ site.jingyu.first_name }}</h4>
-                    <p>
-                        {{ site.jingyu.description }}
-                    </p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="{{ site.jingyu.link }}" target="blank"><i class="fa fa-link"></i></a>
-                        </li>
-                        <li><a href="mailto:{{ site.jingyu.email }}"><i class="fa fa-envelope-o"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p id="jalpc_site_pv"><strong>&copy; 2015 {{ site.title }}</strong></p>
-                <!-- <img src="http://www.reliablecounter.com/count.php?page=www.jack003.com3&digit=style/black-and-white/3/&reloads=0" alt="" title="" border="0">&nbsp;<span data-i18n="link.view">views</span> || -->
-                <!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
-                <!-- <span id="busuanzi_container_site_pv"><strong id="busuanzi_value_site_pv"></strong>&nbsp;views.&nbsp;</span>|| -->
+                <p id="jalpc_site_pv"><strong>&copy; 2016 {{ site.title }}</strong></p>
             </div>
         </div>
     </div>
 </section>
-
 
 
 <script>
@@ -190,7 +170,7 @@ permalink: /
         });
 
         // Page scrolling feature
-        $('a.page-scroll').bind('click', function(event) {
+        $('a.page-scroll').bind('click', function (event) {
             var link = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(link.attr('href')).offset().top - 50
@@ -200,22 +180,24 @@ permalink: /
         });
     });
 
-    var cbpAnimatedHeader = (function() {
+    var cbpAnimatedHeader = (function () {
         var docElem = document.documentElement,
-                header = document.querySelector( '.navbar-default' ),
+                header = document.querySelector('.navbar-default'),
                 didScroll = false,
                 changeHeaderOn = 200;
+
         function init() {
-            window.addEventListener( 'scroll', function( event ) {
-                if( !didScroll ) {
+            window.addEventListener('scroll', function (event) {
+                if (!didScroll) {
                     didScroll = true;
-                    setTimeout( scrollPage, 250 );
+                    setTimeout(scrollPage, 250);
                 }
-            }, false );
+            }, false);
         }
+
         function scrollPage() {
             var sy = scrollY();
-            if ( sy >= changeHeaderOn ) {
+            if (sy >= changeHeaderOn) {
                 $(header).addClass('navbar-scroll')
             }
             else {
@@ -223,9 +205,11 @@ permalink: /
             }
             didScroll = false;
         }
+
         function scrollY() {
             return window.pageYOffset || docElem.scrollTop;
         }
+
         init();
 
     })();
@@ -236,15 +220,14 @@ permalink: /
 </script>
 
 <script>
-
-    $(document).ready(function (){
+    $(document).ready(function () {
 
         $.i18n.init({
             resGetPath: 'static/locales/__lng__.json',
             load: 'unspecific',
             fallbackLng: false,
             lng: 'en'
-        }, function (t){
+        }, function (t) {
             $('.i18container').i18n();
             // $('#i18_title').i18n();
             $('#i18_navbar').i18n();
@@ -255,41 +238,6 @@ permalink: /
             $('#i18_blog').i18n();
             $('#i18_link').i18n();
         });
-
-        $('.set_en').on('click', function (){
-            i18n.setLng('en', function(){
-                $('.i18container').i18n();
-                // $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_blog').i18n();
-                $('#i18_link').i18n();
-
-                // $('.set_en').addClass('active');
-                // $('.set_cn').removeClass('active');
-            });
-        });
-
-        $('.set_cn').on('click', function (){
-            i18n.setLng('cn', function(){
-                $('.i18container').i18n();
-                // $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_blog').i18n();
-                $('#i18_link').i18n();
-
-                // $('.set_cn').addClass('active');
-                // $('.set_en').removeClass('active');
-            });
-        });
-
     });
 
 </script>

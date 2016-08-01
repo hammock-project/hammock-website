@@ -6706,6 +6706,10 @@ body.landing-page {
     padding: 10px;
     height: auto;
 }
+.bigger {
+    font-size: 18px;
+    color: #000000;
+}
 .landing-page .header-back {
     height: 470px;
     width: 100%;
