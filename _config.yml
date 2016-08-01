@@ -1,22 +1,21 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "Hammock Project"
+description: "The hammock project website."
+keywords: "java,microservices"
 
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "https://hammock-project.github.io"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  name: 'John Ament'
+  first_name: 'John'
+  last_name: 'Ament'
+  email: 'john.d.ament@gmail.com'
+  github_username: 'johnament'
   head_img: 'static/img/landing/Jack.jpg'
 
 # social link
