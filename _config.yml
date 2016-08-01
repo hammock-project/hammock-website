@@ -16,15 +16,7 @@ author:
   last_name: 'Ament'
   email: 'john.d.ament@gmail.com'
   github_username: 'johnament'
-  head_img: 'static/img/landing/Jack.jpg'
-
-# social link
-jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+  head_img: 'https://s.gravatar.com/avatar/e48547648dff8d70c9a9fd3663d150d7?s=120'
 
 # landing page
 landing:
@@ -35,21 +27,6 @@ landing:
   projects: 'Project'
   blog: 'Blog'
   link: 'Link'
-
-# my projects
-project:
-  saplatform:
-    name: 'Saplatform'
-    url: '/Jack614/saplatform'
-    img: 'static/img/landing/saplatform.jpg'
-  jalpc:
-    name: 'Jalpc'
-    url: '/Jack614/jalpc_jekyll_theme'
-    img: 'static/img/landing/jekyll.jpg'
-  angularjs:
-    name: 'Jalpc-A'
-    url: '/Jack614/Jalpc-A'
-    img: 'static/img/landing/angularjs.jpg'
 
 # blog index
 index:
