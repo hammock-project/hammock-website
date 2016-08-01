@@ -7,16 +7,16 @@ keywords: "java,microservices"
 
 baseurl: "/"
 url: "https://hammock-project.github.io"
-# url: "http://127.0.0.1:4000"
+# url: "http://127.0.0.1:8580"
 
 # author
 author:
-  name: 'John Ament'
+  name: 'Hammock Project'
   first_name: 'John'
   last_name: 'Ament'
   email: 'john.d.ament@gmail.com'
-  github_username: 'johnament'
-  head_img: 'https://s.gravatar.com/avatar/e48547648dff8d70c9a9fd3663d150d7?s=120'
+  github_username: 'hammock-project'
+  head_img: '/static/img/logo/hammock_blue.png'
 
 # landing page
 landing:
@@ -39,16 +39,8 @@ index:
   life: 'Life'
 
 disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
-
-# share
-bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
-
-# baidu analytics
-ba:
-  uuid: 317acca9ef9255b934e46371e471431d
+  name: Hammock
+  public_key: 93LpgxkfgAaW5ClG3f34vEJhj5ltmumYL6r9N09CfoI4Cx3j1tNJYN0ARg8yR11J
 
 # google analytics
 ga:
